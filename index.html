@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Aryan</p>
+            <span>Aryan</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" id="resume3">Download Resume<i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Aryan Singh</span>
+            </div>A
+            <div class="featured-name">
+                <p>I'm Front-end Developer</p>
+            </div>
+            <div class="featured-text-info">
+                <p>I'm an enthusiastic and motivated front-end developer with a strong foundation in HTML, CSS, and JavaScript. I'm passionate about creating engaging and user-friendly web experiences and have a keen interest in modern frameworks like React and Angular. I thrive in dynamic, innovative environments and am excited to apply my skills while continually learning and contributing to impactful projects.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn" id="resume">Download Resume <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon" id="linke"><i class="uil uil-linkedin-alt"><link rel="stylesheet" href="www.linkedin.com/in/aryan-singh-b72462295"></i></div>
+                <div class="icon" id="gittu"><i class="uil uil-github-alt"><link rel="stylesheet" href="https://github.com/aryan5302"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>Enthusiastic and motivated front-end developer with a solid foundation in HTML, CSS, and
+                        JavaScript, along with a keen interest in frameworks like React and Angular. Eager to apply my skills
+                        and creativity to build engaging projects while continuously learning and growing within a
+                        dynamic and innovative team environment.
+                    </p>
+                    <div class="about-btn" id="resume2">
+                        <button class="btn" id="resume">Download Resume <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>BASIC JAVA</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JAVASCRIPT</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Areas of Interest</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>DSA</span>
+                        <span>OOP</span>
+                        <span>Operating Systems</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Problem Solving</span>
+                        <span> Active Listening</span>
+                        <span>Event Management</span>
+                        <span>Collaboration</span>
+                        <span>Event Management</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <h3>Music Player </h3>
+                <label>Tech Stack: HTML, CSS, JavaScript. </label>
+                <ul style="margin: 50px;">
+                    <li>Developed a feature-rich web-based music player allowing users to play, next, and volume control their music.</li>
+                    <li>Deployed on a cloud platform for easy access .</li>
+                    <li>The app automatically detects playlists and songs according to mood.</li>
+                </ul>
+            </div>
+            <div class="project-box">
+                <h3>Online Voting System  </h3>
+                <label>Tech Stack: HTML, CSS, JavaScript.</label>
+                <ul style="margin: 50px;">
+                    <li>The Online Voting System UI Model is a project focused on creating a user-friendly interface for online voting.</li>
+                    <li>It includes secure user authentication, an intuitive voting dashboard, an easy-to-use ballot interface, and confirmation screens for finalizing votes.</li>
+                </ul>
+            </div>
+            <div class="project-box">
+                <h3>Website</h3>
+                <label>Netflix UI clone</label>
+                <label>Ultra Edit UI clone</label>
+            </div>
+          </div>
+       </section>
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>OTHER DETAILS</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box" style="width: 45%;">
+                <h3>CERTIFICATIONS</h3>
+                <label>Data Analytics and Visualization Job Simulation.</label>
+                <label>IBM SkillsBuild Summer Internship Program.</label>
+                <label>Forage - Cybersecurity Job Simulation.</label>
+                <label> Pearson - English Language Proficiency.</label>
+
+            </div>
+            <div class="project-box" style="width: 45%;">
+                <h3>ExTRACURRICULAR ACHIEVEMENTS</h3>
+                <label>Gold medalist in International Math Olympiad at school level.</label> 
+                <label>Gold medalist in the college photography competition.</label>
+                <label>Actively participated and won accolades in various debate competitions.</label>
+            </div>
+          </div>
+       </section>
+
+
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Aryan Singh</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon" id="linky"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon" id="gitty"><i class="uil uil-github-alt"></i></div>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="js/js/script.js"></script>
+</body>
+</html>
